@@ -1,1 +1,36 @@
 @charset "UTF-8";
+
+.q7-1__ballon {
+  position: relative;
+  width: 550px;
+  font-size: 16px;
+  border-radius: 30px;
+  border: solid 5px #222;
+  padding: 20px;
+  margin-left: 35px;
+  word-break: break-all;
+  box-sizing: border-box;
+}
+
+.q7-1__ballon::before,.q7-1__ballon::after {
+  content: "";
+  position: absolute;
+  border: solid 20px transparent;
+  bottom: 25px;
+}
+
+.q7-1__ballon::before {
+  border-right-color: #222;
+  left: -45px;
+}
+
+.q7-1__ballon::after {
+  border-right-color: #fff;
+  left: -38px;
+}
+
+.q7-1__contents {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}

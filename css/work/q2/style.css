@@ -1,5 +1,29 @@
 @charset "UTF-8";
 
+.q2__table {
+  table-layout: fixed;
+  text-align: center;
+  width: 100%;
+}
 
+.q2__table th,.q2__table td {
+  border: solid #dedede 1px;
+  padding: 10px;
+}
+
+.q2__table th {
+  background-color: #2244aa;
+  color: #fff;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.q2__table tbody tr:nth-child(even) {
+  background-color: #ecf1f2;
+}
+
+.q2__table tbody tr:last-child {
+  border-top: dashed #000 2px;
+}
 /* q2が終わったら
 q3のcssはq3フォルダの中のcssファイルに記述してください */
